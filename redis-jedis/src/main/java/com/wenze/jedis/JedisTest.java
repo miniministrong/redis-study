@@ -6,7 +6,7 @@ import redis.clients.jedis.Jedis;
 import java.util.List;
 import java.util.Set;
 
-public class JedisDemo1 {
+public class JedisTest {
     public static void main(String[] args) {
         // 创建Jedis对象
         Jedis jedis = new Jedis("192.168.229.129", 6379);
